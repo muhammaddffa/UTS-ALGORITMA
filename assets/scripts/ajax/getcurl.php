@@ -26,7 +26,7 @@ $onscreen = '<table class="table" width="100%">
             ';
 
 foreach($response_array as $resp){
-    if($resp['i_code'][0] === "E" && $resp['g_code'][0] === "Scd"){
+    if($resp['i_code'][0] === "E" && $resp['g_code'][0] === "S"){
         $onscreen .= '<tr>
                     <td>'.$resp['i_code'].'</td>
                     <td>'.$resp['i_name'].'</td>
